@@ -1,3 +1,5 @@
+// const Aura = require('@primevue/themes/aura');
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -29,6 +31,9 @@ export default {
     'primevue/resources/primevue.css',
     'primeicons/primeicons.css'
   ],
+  colorMode: {
+    preference: 'dark'
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -48,7 +53,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // Doc: https://www.primefaces.org/primevue/showcase-v2/#/setup
-    'primevue/nuxt',
+    'primevue/nuxt'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
